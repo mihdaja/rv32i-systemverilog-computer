@@ -1,0 +1,19 @@
+# Simulation binaries and waveforms
+*.vvp
+*.vcd
+*.log
+a.out
+
+# Compiled C / VPI objects
+*.o
+*.vpi
+*.so
+*.dylib
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# OS generated files
+.DS_Store
+Thumbs.db
