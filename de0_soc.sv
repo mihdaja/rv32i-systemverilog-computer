@@ -12,8 +12,8 @@
 `include "rv32i_pkg.sv"
 
 module de0_soc #(
-  parameter     ROM_HEX            = "../sw/flappy_bird.hex",
-  parameter     RAM_HEX            = "../sw/flappy_bird_ram.hex",
+  parameter     ROM_HEX            = "sw/flappy_bird.hex",
+  parameter     RAM_HEX            = "sw/flappy_bird_ram.hex",
   parameter int CLK_FREQ           = 50_000_000,
   parameter int BAUD_RATE          = 115_200
 )(
